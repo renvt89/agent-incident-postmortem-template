@@ -35,4 +35,4 @@ MIT. Use it, fork it, adapt it.
 
 ---
 
-Need the longer version with worked examples, a severity rubric and a guardrail checklist? The paid pack is the Agent Incident Postmortem Pack: https://renvt89.gumroad.com/l/mmuky?ref=gh-pm
+Need the longer version with worked examples, a severity rubric and a guardrail checklist? The paid pack is the Agent Incident Postmortem Pack: https://renevibe76.gumroad.com/l/mmuky?ref=gh-pm
