@@ -11,6 +11,8 @@ It is a **free template only**. It is not legal, compliance or insurance advice,
 3. Finish with **one prevention rule** that is specific enough for a script or a reviewer to check.
 4. Get owner sign-off, then link the rule into your agent's instructions or CI.
 
+- Worked example: [$78k runaway-agent postmortem](docs/example-78k-runaway-agent.md)
+
 ## Sections
 
 | # | Section | What goes in it |
