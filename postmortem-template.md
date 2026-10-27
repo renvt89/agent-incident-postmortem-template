@@ -6,6 +6,7 @@
 - **Date (UTC):** 
 - **Severity:** (SEV1 data/money loss · SEV2 customer-visible · SEV3 internal only)
 - **Agent / tool involved:** 
+- **Model + version / prompt version:** (e.g. provider/model@date, system-prompt commit)
 - **Author:** 
 
 ## 1. Summary
@@ -34,6 +35,24 @@ The prompt, task, event or input that started it (quote it, redact secrets).
 |---|---|---|
 | 1 | | |
 | 2 | | |
+
+### Tool-call trace excerpt
+Paste the 5-20 tool calls around the failure (redact secrets).
+```
+[hh:mm:ss] tool=<name> args=<redacted> -> result=<short>
+```
+
+### Detection
+- How was it detected (alert, user report, cost spike, reviewer)?
+- Time from first bad action to detection:
+- What would have detected it sooner?
+
+### 5 whys
+1. Why did the agent take the harmful action?
+2. Why was that action permitted?
+3. Why did no check catch it before execution?
+4. Why was the gap not known before?
+5. Why did the process allow that gap? (root cause)
 
 ## 6. Guardrail that failed
 - Which control should have stopped this (permission scope, dry-run, budget cap, approval checkpoint, allowlist, test)?
